@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    background: #4B93BF;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo p{
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}   
+li{
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+.sectionOne{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 54vh;
+    background:#E4EEF1 ;
+}
+.sectionOne div{
+    width: 40%;
+}
+.sectionOne figure{
+    width: 40%;
+    margin: 0 200px;
+}
+.sectionOne img{
+    height: 56vh;
+}
+.sectionOne p{
+    font-size: 22px;
+    color: #0F468C;
+}
+.sectionTwo{
+    background:#4B93BF ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sectionTwo p{
+    color: white;
+    font-size: 50px;
+}
+.sectionTwo div{
+    width: 40%;
+}
+.sectionTwo figure{
+    width: 30%;
+}
+
+.sectionThree{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    background: #E4EEF1;
+    height: 54vh;
+}
+.sectionThree img{
+    height: 50vh;
+    margin: 0 20px;
+}
+#one{
+    margin: 0 -30px;
+}
+#three{
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+#four{
+    position: relative;
+    left: -50px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:#4B93BF ;
+}
+.social{
+  padding: 0 -100px;
+}
+#insta{
+    position: relative;
+    top: 7px;
+}
+#github {
+    position: relative;
+    top: 12px;
+}
+
+.fText{
+    color: #ffff;
+    font-size: 20px;
+    text-align: center;
+}
